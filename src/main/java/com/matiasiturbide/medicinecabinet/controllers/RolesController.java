@@ -1,7 +1,7 @@
 package com.matiasiturbide.medicinecabinet.controllers;
 
-import com.lambdaschool.usermodel.models.Role;
-import com.lambdaschool.usermodel.services.RoleService;
+import com.matiasiturbide.medicinecabinet.models.Role;
+import com.matiasiturbide.medicinecabinet.services.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

@@ -1,7 +1,7 @@
 package com.matiasiturbide.medicinecabinet.controllers;
 
-import com.lambdaschool.usermodel.models.User;
-import com.lambdaschool.usermodel.services.UserService;
+import com.matiasiturbide.medicinecabinet.models.User;
+import com.matiasiturbide.medicinecabinet.services.UserService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;

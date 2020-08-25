@@ -1,7 +1,7 @@
 package com.matiasiturbide.medicinecabinet.controllers;
 
-import com.lambdaschool.usermodel.models.Useremail;
-import com.lambdaschool.usermodel.services.UseremailService;
+import com.matiasiturbide.medicinecabinet.models.Useremail;
+import com.matiasiturbide.medicinecabinet.services.UseremailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
