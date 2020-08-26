@@ -1,6 +1,6 @@
 package com.matiasiturbide.medicinecabinet.services;
 
-import com.lambdaschool.usermodel.models.ValidationError;
+import com.matiasiturbide.medicinecabinet.models.ValidationError;
 
 import java.util.List;
 

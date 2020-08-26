@@ -1,6 +1,6 @@
 package com.matiasiturbide.medicinecabinet.services;
 
-import com.lambdaschool.usermodel.models.Useremail;
+import com.matiasiturbide.medicinecabinet.models.Useremail;
 
 import java.util.List;
 

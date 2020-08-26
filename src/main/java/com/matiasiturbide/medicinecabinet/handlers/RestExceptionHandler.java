@@ -3,7 +3,7 @@ package com.matiasiturbide.medicinecabinet.handlers;
 import com.matiasiturbide.medicinecabinet.exceptions.ResourceFoundException;
 import com.matiasiturbide.medicinecabinet.exceptions.ResourceNotFoundException;
 import com.matiasiturbide.medicinecabinet.models.ErrorDetail;
-import com.lambdaschool.usermodel.services.HelperFunctions;
+import com.matiasiturbide.medicinecabinet.services.HelperFunctions;
 import org.springframework.beans.ConversionNotSupportedException;
 import org.springframework.beans.TypeMismatchException;
 import org.springframework.beans.factory.annotation.Autowired;

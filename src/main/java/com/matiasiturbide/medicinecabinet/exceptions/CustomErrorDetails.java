@@ -1,7 +1,7 @@
 package com.matiasiturbide.medicinecabinet.exceptions;
 
 
-import com.lambdaschool.usermodel.services.HelperFunctions;
+import com.matiasiturbide.medicinecabinet.services.HelperFunctions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.error.DefaultErrorAttributes;
 import org.springframework.stereotype.Component;
