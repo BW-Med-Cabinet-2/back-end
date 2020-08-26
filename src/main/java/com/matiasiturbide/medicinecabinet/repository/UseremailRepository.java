@@ -1,6 +1,6 @@
 package com.matiasiturbide.medicinecabinet.repository;
 
-import com.lambdaschool.usermodel.models.Useremail;
+import com.matiasiturbide.medicinecabinet.models.Useremail;
 import org.springframework.data.repository.CrudRepository;
 
 /**

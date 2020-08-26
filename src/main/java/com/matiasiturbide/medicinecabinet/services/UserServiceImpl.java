@@ -1,11 +1,11 @@
 package com.matiasiturbide.medicinecabinet.services;
 
-import com.lambdaschool.usermodel.exceptions.ResourceNotFoundException;
-import com.lambdaschool.usermodel.models.Role;
-import com.lambdaschool.usermodel.models.User;
-import com.lambdaschool.usermodel.models.UserRoles;
-import com.lambdaschool.usermodel.models.Useremail;
-import com.lambdaschool.usermodel.repository.UserRepository;
+import com.matiasiturbide.medicinecabinet.exceptions.ResourceNotFoundException;
+import com.matiasiturbide.medicinecabinet.models.Role;
+import com.matiasiturbide.medicinecabinet.models.User;
+import com.matiasiturbide.medicinecabinet.models.UserRoles;
+import com.matiasiturbide.medicinecabinet.models.Useremail;
+import com.matiasiturbide.medicinecabinet.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

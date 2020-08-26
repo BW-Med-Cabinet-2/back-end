@@ -1,9 +1,9 @@
 package com.matiasiturbide.medicinecabinet.services;
 
-import com.lambdaschool.usermodel.exceptions.ResourceNotFoundException;
-import com.lambdaschool.usermodel.models.User;
-import com.lambdaschool.usermodel.models.Useremail;
-import com.lambdaschool.usermodel.repository.UseremailRepository;
+import com.matiasiturbide.medicinecabinet.exceptions.ResourceNotFoundException;
+import com.matiasiturbide.medicinecabinet.models.User;
+import com.matiasiturbide.medicinecabinet.models.Useremail;
+import com.matiasiturbide.medicinecabinet.repository.UseremailRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -17,7 +17,7 @@ import java.util.List;
 @Transactional
 @Service(value = "useremailService")
 public class UseremailServiceImpl
-        implements com.lambdaschool.usermodel.services.UseremailService
+        implements com.matiasiturbide.medicinecabinet.services.UseremailService
 {
     /**
      * Connects this service to the Useremail model
@@ -29,7 +29,7 @@ public class UseremailServiceImpl
      * Connects this servive to the User Service
      */
     @Autowired
-    private com.lambdaschool.usermodel.services.UserService userService;
+    private com.matiasiturbide.medicinecabinet.services.UserService userService;
 
     @Autowired
     private HelperFunctions helperFunctions;

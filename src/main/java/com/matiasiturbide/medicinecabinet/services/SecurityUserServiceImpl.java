@@ -1,8 +1,8 @@
 package com.matiasiturbide.medicinecabinet.services;
 
-import com.lambdaschool.usermodel.exceptions.ResourceNotFoundException;
-import com.lambdaschool.usermodel.models.User;
-import com.lambdaschool.usermodel.repository.UserRepository;
+import com.matiasiturbide.medicinecabinet.exceptions.ResourceNotFoundException;
+import com.matiasiturbide.medicinecabinet.models.User;
+import com.matiasiturbide.medicinecabinet.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

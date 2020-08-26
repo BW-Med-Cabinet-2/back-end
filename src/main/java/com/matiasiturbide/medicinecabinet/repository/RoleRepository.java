@@ -1,6 +1,6 @@
 package com.matiasiturbide.medicinecabinet.repository;
 
-import com.lambdaschool.usermodel.models.Role;
+import com.matiasiturbide.medicinecabinet.models.Role;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
