@@ -1,6 +1,9 @@
 package com.matiasiturbide.medicinecabinet.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import java.util.List;
+@JsonIgnoreProperties(ignoreUnknown = true)
 
 public class StrainRecommendationsList {
     private List<StrainRecommendations> RecomList;

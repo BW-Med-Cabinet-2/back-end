@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import java.util.Collections;
 
-@Service(value = "StrainReccomendationService")
+@Service(value = "StrainRecommendationService")
 public class StrainRecomServImpl implements StrainReccomendationService {
 
     @Override
@@ -18,7 +18,6 @@ public class StrainRecomServImpl implements StrainReccomendationService {
         String apiUrl = "http://hold-your-turnips.herokuapp.com/predict";
 
         PredictPost predictPost = new PredictPost(symptom, amount);
-
         RecomContainer newRec = new RecomContainer();
         RestTemplate restTemplate = new RestTemplate();
         MappingJackson2HttpMessageConverter converter = new MappingJackson2HttpMessageConverter();
