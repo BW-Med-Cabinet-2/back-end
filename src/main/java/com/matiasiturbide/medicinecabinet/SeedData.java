@@ -132,27 +132,27 @@ public class SeedData
             // https://www.baeldung.com/java-faker
             // https://www.baeldung.com/regular-expressions-java
 
-//            FakeValuesService fakeValuesService = new FakeValuesService(new Locale("en-US"),
-//                                                                        new RandomService());
-//            Faker nameFaker = new Faker(new Locale("en-US"));
-//
-//            for (int i = 0; i < 25; i++)
-//            {
-//                new User();
-//                User fakeUser;
-//
-//                fakeUser = new User(nameFaker.name()
-//                                            .username(),
-//                                    "password",
-//                                    nameFaker.internet()
-//                                            .emailAddress());
-//                fakeUser.getRoles()
-//                        .add(new UserRoles(fakeUser, r2));
-//                fakeUser.getUseremails()
-//                        .add(new Useremail(fakeUser,
-//                                           fakeValuesService.bothify("????##@gmail.com")));
-//                userService.save(fakeUser);
-//            }
+            FakeValuesService fakeValuesService = new FakeValuesService(new Locale("en-US"),
+                                                                        new RandomService());
+            Faker nameFaker = new Faker(new Locale("en-US"));
+
+            for (int i = 0; i < 25; i++)
+            {
+                new User();
+                User fakeUser;
+
+                fakeUser = new User(nameFaker.name()
+                                            .username(),
+                                    "password",
+                                    nameFaker.internet()
+                                            .emailAddress());
+                fakeUser.getRoles()
+                        .add(new UserRoles(fakeUser, r2));
+                fakeUser.getUseremails()
+                        .add(new Useremail(fakeUser,
+                                           fakeValuesService.bothify("????##@gmail.com")));
+                userService.save(fakeUser);
+            }
         }
     }
 }

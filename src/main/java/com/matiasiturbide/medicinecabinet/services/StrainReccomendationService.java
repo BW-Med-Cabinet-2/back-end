@@ -1,9 +1,10 @@
 package com.matiasiturbide.medicinecabinet.services;
 
 
-import com.matiasiturbide.medicinecabinet.models.Recommendations;
+import com.matiasiturbide.medicinecabinet.models.RecomContainer;
+
 
 public interface StrainReccomendationService {
 
-    Recommendations getRecom(String symptom, int amount);
+    RecomContainer getRecom(String symptom, int amount);
 }

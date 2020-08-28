@@ -3,17 +3,17 @@ package com.matiasiturbide.medicinecabinet.models;
 
 public class Recommendations {
 
-    private StrainRecommendations strainRecommendations;
+    private StrainRecommendationsList strainRecommendations;
 
-    public StrainRecommendations getStrainRecommendations() {
+    public StrainRecommendationsList getStrainRecommendations() {
         return strainRecommendations;
     }
 
-    public void setStrainRecommendations(StrainRecommendations strainRecommendations) {
+    public void setStrainRecommendations(StrainRecommendationsList strainRecommendations) {
         this.strainRecommendations = strainRecommendations;
     }
 
-    public Recommendations(StrainRecommendations strainRecommendations) {
+    public Recommendations(StrainRecommendationsList strainRecommendations) {
         this.strainRecommendations = strainRecommendations;
     }
 
